@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'hip/hop'
+  root 'hip#hop'
 
-  get 'hip/about'
+  get '/about' => 'hip#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
